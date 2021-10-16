@@ -3,7 +3,7 @@ import dill
 from config.config import AbstractConfig
 
 base_config = AbstractConfig({
-    # dataset
+    # dataset (KthDataSet | MnistDataSet | TestingDataSet)
     'dataset_type': None,
     # path to test data root
     'test_data': None,
